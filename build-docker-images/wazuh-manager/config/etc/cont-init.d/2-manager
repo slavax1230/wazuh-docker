@@ -84,7 +84,7 @@ function_create_custom_user() {
   if [[ ! -z $API_USERNAME ]] && [[ ! -z $API_PASSWORD ]]; then
   cat << EOF > /var/ossec/api/configuration/admin.json
 {
-  "username": "$API_USERNAME",
+  "username": "$API_USERNAME",asdadadadas
   "password": "$API_PASSWORD"
 }
 EOF
